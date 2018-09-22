@@ -26,7 +26,7 @@ const Title = styled.p`
   `}
 `
 
-const propTypes = {
+const txtPropTypes = {
   text: PropTypes.string.isRequired,
   textColor: PropTypes.string,
 }
@@ -41,6 +41,6 @@ function Text ({
   )
 }
 
-Text.PropTypes = propTypes
+Text.propTypes = txtPropTypes
 
 export default Text

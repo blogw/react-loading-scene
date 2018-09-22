@@ -29,7 +29,7 @@ const Image = styled.img`
   `}
 `
 
-const propTypes = {
+const logoPropTypes = {
   src: PropTypes.string.isRequired,
   rounded: PropTypes.bool
 }
@@ -45,6 +45,6 @@ function Logo ({
   )
 }
 
-Logo.PropTypes = propTypes
+Logo.propTypes = logoPropTypes
 
 export default Logo
