@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LoadingScreen from './LoadingScreen';
+import LoadingScene from './LoadingScene';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     const { loading } = this.state;
     return (
-      <LoadingScreen
+      <LoadingScene
         loading={loading}
         bgColor='#f1f1f1'
         spinnerColor='#9ee5f8'
@@ -36,7 +36,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
-      </LoadingScreen>
+      </LoadingScene>
     );
   }
 }

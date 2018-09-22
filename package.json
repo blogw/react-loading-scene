@@ -1,7 +1,22 @@
 {
-  "name": "react-loading-screen",
+  "name": "react-loading-scene",
   "version": "0.1.0",
-  "private": true,
+  "description": "react loading scene",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blogw/react-loading-scene"
+  },
+  "keywords": [
+    "react",
+    "loading-scene"
+  ],
+  "author": "blogw",
+  "license": "MIT",
+  "homepage": "https://github.com/blogw/react-loading-scene",
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",

@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import Logo from './components/Logo'
 import Text from './components/Text'
 
-const ScreenWrapper = styled.div`
+const SceneWrapper = styled.div`
   position: absolute;
   left: 0;
   top: 0;
@@ -38,7 +38,7 @@ const propTypes = {
   text: PropTypes.string
 }
 
-function LoadingScreen ({
+function LoadingScene ({
   children,
   bgColor,
   spinnerColor,
@@ -51,7 +51,7 @@ function LoadingScreen ({
 }) {
   return (
     <div>
-      <ScreenWrapper
+      <SceneWrapper
         bgColor={bgColor}
         loading={loading}
       >
@@ -73,7 +73,7 @@ function LoadingScreen ({
               textColor={textColor} />}
 
         </LoadingComponents>
-      </ScreenWrapper>
+      </SceneWrapper>
 
       <LoadableData loading={loading}>
         {children}
@@ -82,6 +82,6 @@ function LoadingScreen ({
   )
 }
 
-LoadingScreen.propTypes = propTypes
+LoadingScene.propTypes = propTypes
 
-export default LoadingScreen
+export default LoadingScene
