@@ -2,6 +2,7 @@
   "name": "react-loading-scene",
   "version": "0.1.0",
   "description": "react loading scene",
+  "main": "./lib/LoadingScene.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/blogw/react-loading-scene"
