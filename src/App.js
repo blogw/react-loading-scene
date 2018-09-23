@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import LoadingScene from './LoadingScene';
+import LoadingScene from './libs/build/LoadingScene';
 import logo from './logo.svg';
 import './App.css';
 

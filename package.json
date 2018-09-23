@@ -1,29 +1,8 @@
 {
-  "name": "react-loading-scene",
-  "version": "0.1.0",
-  "description": "react loading scene",
-  "main": "./lib/LoadingScene.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/blogw/react-loading-scene"
-  },
-  "keywords": [
-    "react",
-    "loading-scene"
-  ],
-  "author": "blogw",
-  "license": "MIT",
-  "homepage": "https://github.com/blogw/react-loading-scene",
-  "peerDependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
-  },
   "dependencies": {
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
-    "react-scripts": "1.1.5",
-    "react-spinkit": "^3.0.0",
-    "styled-components": "^3.4.9"
+    "react-scripts": "^1.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
