@@ -39,6 +39,6 @@
     "prepublish": "yarn build"
   },
   "files": [
-    "build"
+    "lib"
   ]
 }
