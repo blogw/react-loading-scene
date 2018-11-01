@@ -1,6 +1,6 @@
 {
   "name": "react-loading-scene",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "react loading scene",
   "main": "lib/LoadingScene.js",
   "repository": {

@@ -14,7 +14,7 @@ const SceneWrapper = styled.div`
   height: 100%;
   text-align: center;
   background: ${props => props.bgColor || '#ffffff'};
-  opacity: ${props => props.loading ? 1 : 0};
+  opacity: ${props => props.loading ? props.opacity : 0};
   visibility: ${props => props.loading ? 'visible' : 'hidden'};
   transition: opacity 0.4s, visibility -0.3s linear 0.5s;
 `
